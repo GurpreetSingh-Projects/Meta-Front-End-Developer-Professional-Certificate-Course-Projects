@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+	<head>
+	<meta charsert ="UTF-8">
+	<title>Table</table>
+	</head>
+
+<body>
+<table>
+</table>
+</body>

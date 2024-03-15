@@ -1,0 +1,73 @@
+div {
+    vertical-align: middle;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+p {
+    font-family: Arial;
+    padding-left: 8px;
+}
+.d5 {
+    height: 320px;
+    width: 200px;
+    object-fit: cover;
+    box-shadow: 0px 0px 3px rgb(46, 46, 46);
+    border-radius: 2%;
+}
+.c2 {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-bottom: 0px;
+}
+.name {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.mutual {
+    margin-top: 3px;
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.addfriend {
+    font-family: Arial;
+    margin-left: 8px;
+    padding: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #3b5998;
+    color: white;
+    border: 0;
+    margin-top: 5px;
+    box-shadow: 0px 0px 3px black;
+    transition: padding 0.3s, background-color 0.3s,margin 0.3s;
+}
+.addfriend:active {
+    margin: 10px;
+    background-color: #4c70bc8f;
+}
+.mutual {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    vertical-align: middle;
+}
+.mutualfriend {
+    width: 100%;
+}
+.c2pic {
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin: 0px;
+    margin-left: 5px;
+    margin-top: 5px;
+}

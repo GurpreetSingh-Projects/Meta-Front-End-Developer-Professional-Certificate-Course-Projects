@@ -1,0 +1,22 @@
+        p {
+            font-family: Arial;
+            text-align: center;
+        }
+        .new {
+            color: red;
+        }
+        .macbook {
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .super {
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .buy {
+            margin-left: 700px;
+            background-color: blue;
+            color: white;
+            border: 0;
+            border-radius: 10px;
+        }

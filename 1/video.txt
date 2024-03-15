@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+	<head>
+	meta charset = "UTF-8"
+	</head>
+
+	<body>
+	<video : src="E:\Movavi Library\long\R editor 115.mp4" controls loop
+	Your browser does not support video playback
+	</video>
+	</body>

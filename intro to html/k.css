@@ -1,0 +1,102 @@
+p {
+    font-family: Arial;
+    font-size: 10px;
+    color: rgb(78, 78, 78);
+    
+}
+.a {
+    border-radius: 5px;
+    border: 1px;
+    border-style: solid;
+}
+.b {
+    width: 200px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: grey;
+    font-size: 10px;
+    padding-right: 50px;
+    padding-left: 5px;
+    font-family: arial;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 3px rgb(192, 190, 190);
+}
+.email {
+    margin-bottom: 4px;
+}
+.link {
+    width: 250px;
+    margin-bottom: 0;
+    margin-top: 0px;
+    font-size: 10px;
+    font-family: arial;
+}
+.tnc {
+    margin-top: 4px;
+}
+.b1 {
+    margin-top: 0px;
+    color: white;
+    font-family: arial;
+    border-style: solid;
+    background-color: #056497;
+    font-family: Arial;
+    font-size: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px rgb(137, 136, 136);
+}
+.c1 {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+.t1 {
+    width: 100px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: grey;
+    font-size: 10px;
+    padding-right: 50px;
+    padding-left: 5px;
+    font-family: arial;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 3px rgb(192, 190, 190);
+    vertical-align: middle;
+}
+.tweet {
+    vertical-align: middle;
+    background-color: #00acee;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    border: 0;
+    border-style: solid;
+    height: 20px;
+    width: 50px;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-right: 10px
+    box-shadow: 3px 3px 15px grey;
+    transition: box-shadow 0.3s;
+}
+.tweet:hover {
+    box-shadow: 3px 3px 15px rgba(188, 186, 186, 1.5);
+    transition: box-shadow 0.3s;
+    opacity: 0.9;
+}
+.tweet:active {
+    box-shadow: 3px 3px 15px rgba(188, 186, 186, 1.5);
+    transition: box-shadow 0.3s;
+    opacity: 0.6;
+}

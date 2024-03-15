@@ -1,0 +1,78 @@
+.tahomafont {
+    font-family: Tahoma;
+    font-size: 40px;
+    font-weight: bold;
+}
+.bdofy {
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+    }
+.set {
+    font-family: Arial;
+    margin-top: 0;
+    font-size: 25px;
+    color: rgb(229, 56, 56);
+    font-style: italic;
+    margin-top: 5px;
+}
+.a {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20;
+    margin-bottom: 0;
+}
+.b {
+    font-family: Verdana;
+    font-size:15;
+    color: rgb(127, 127, 127);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.c {
+    font-family: Verdana;
+    max-width: 300px;
+    font-size: 20px;
+}
+.b1 {
+    font-family: Verdana;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    background-color: rgb(0, 107, 0);
+    color: white;
+    box-shadow: 3px 3px 0 grey;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.b1:active {
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: 0px 0px 0px white;
+    border-color: solid;
+    transition: margin 0.5s ,box-shadow 0.5s;
+}
+    .d {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+    }
+    .e {
+        margin-top: 10px;
+        font-family: Arial;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .f {
+        margin-top: 5px;
+        font-family: Arial;
+        font-size: 15px;
+        text-align: center;
+        color: blue;
+    }

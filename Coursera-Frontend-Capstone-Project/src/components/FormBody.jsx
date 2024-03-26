@@ -5,7 +5,7 @@ export default function FormBody() {
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
   const [guests, setGuests] = useState("");
-  const handleSubmit = (e) => {
+  const handleSubmit = () => {
     alert(
       `Booking Confirmed !! \n Name: ${name} \n Date: ${date} \n Time: ${time} \n Guests Count: ${guests}`
     );

@@ -1,10 +1,12 @@
 import Footer from "../components/Footer";
+import FormBody from "../components/FormBody";
 import Header from "../components/Header";
 
-export default function Form() {
+export default function BookingForm() {
   return (
     <>
       <Header />
+      <FormBody />
       <Footer />
     </>
   );

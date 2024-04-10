@@ -1,16 +1,17 @@
 import "./App.css";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Nav from "./components/Nav";
+import Main from "./Pages/Main";
+import Form from "./Pages/Form";
 
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <Header />
-
-      <Main />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/form" element={<Form />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

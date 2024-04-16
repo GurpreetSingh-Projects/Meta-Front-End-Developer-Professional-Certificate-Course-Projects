@@ -1,4 +1,6 @@
-import React from "react";
+import slide1 from "../../public/assets/img/slide1.jpg";
+import slide2 from "../../public/assets/img/slide2.jpg";
+import slide3 from "../../public/assets/img/slide3.jpg";
 import MenuItem from "./MenuItem";
 export default function Specials() {
   return (
@@ -8,27 +10,9 @@ export default function Specials() {
         Online Menu
       </div>
       <div className="menuItemWrapper">
-        <MenuItem
-          img={
-            "https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1710806400&semt=sph"
-          }
-          name={"Food"}
-          price={99}
-        />
-        <MenuItem
-          img={
-            "https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1710806400&semt=sph"
-          }
-          name={"Food"}
-          price={199}
-        />{" "}
-        <MenuItem
-          img={
-            "https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1710806400&semt=sph"
-          }
-          name={"Food"}
-          price={299}
-        />
+        <MenuItem img={slide1} name={"Pan Cakes"} price={"99 $"} />
+        <MenuItem img={slide2} name={"Food"} price={"199%"} />{" "}
+        <MenuItem img={slide3} name={"Blueberry Pancakes"} price={"299$"} />
       </div>
     </section>
   );
